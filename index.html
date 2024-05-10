@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body class="theBackground">
+      <div class="appShortcut">
+        <img src="./src/img/logo.png" alt="logo" width="48" height="48" onclick="return openApp();" title="Open Window">
+      </div>
+    <div class="theWindow">
+        <div class="topBar">
+            <img class="logo" src="./src/img/logo.png" alt="logo" width="20" height="20">
+            <p class="title">My Web Profile</p>
+            <div class="buttons">
+                <img class="minimize" src="./src/img/minimize.png" alt="minimize" onclick="return closeApp();">
+                <img class="maximize" src="./src/img/maximize.png" alt="maximize">
+                <img class="exit" src="./src/img/exit.png" alt="exit" onclick="return closeApp();" title="Close Button">
+            </div>
+        </div>
+        <div class="main">
+            <div class="title">
+                <small>Hello, my name is</small>
+                <h1>Frederick Roberto Wifani</h1>
+                <p>NIM : 123210190</p>
+                <div class="Idola">
+                    <small class="title">Idola</small>
+                    <span class="btn">Yesus Kristus</span>
+                    <span class="btn">Bunda Maria</span>
+                    <span class="btn">Yoseph</span>
+                </div>
+                <div class="skills">
+                    <small class="title">Motivasi : Tetap Semangat dan Pantang Menyerah</small>
+                </div>
+            </div>
+            <img src="./src/img/fred.jpg" alt="Frederick Roberto" width="250">
+        </div>
+    </div>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
